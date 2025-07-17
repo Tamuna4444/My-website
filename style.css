@@ -1,0 +1,168 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #f8b400;
+    border-radius: 50%;
+  }
+  
+  .role {
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 10px;
+  }
+  
+  .profile-wrapper {
+    background-color: #fff8f0;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 100px; 
+}
+
+  
+  
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  
+  
+.circle-button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  background-color:#f8b400;
+  margin: 10px;
+  transition: transform 0.5s ease;
+}
+
+.circle-button:hover {
+  transform: rotate(360deg);
+}
+
+ 
+  footer {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  footer h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  .col-md-6 {
+    padding: 40px 20px;
+  }
+  .d-flex.gap-3 {
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .home-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orange;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .home-circle:hover {
+    transform: scale(1.2);
+  }
+  
+  .section {
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+  }
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdf8f2;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.bio-page {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #fffdf8;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.bio-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f8b400;
+}
+
+.subtitle {
+  color: #666;
+  font-style: italic;
+}
+
+.bio-story p {
+  margin-bottom: 1.2rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.bio-extras ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bio-extras li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+}
+.carousel-inner img {
+  height: 300px;
+  object-fit: cover;
+}
+.card img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+}
